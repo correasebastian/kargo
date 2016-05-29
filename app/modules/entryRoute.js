@@ -8,7 +8,7 @@
 	* @ngdoc function
 	* @name app.route:HomeRoute
 	* @description
-	* # PostRoute
+	* # EntryRoute
 	* Routes of the app
 	*/
 
