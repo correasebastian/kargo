@@ -6,11 +6,11 @@ bower install
 grunt serve
 
 #components
-<post-list>
-<tracker>
+`<post-list>`
+`<tracker>`
 
 #directives
-<post-item>
+`<post-item>`
 
 #express server
 is really simple to configure , you only need to consfigure a staticfolder, but i dont  want to take more time
