@@ -4,8 +4,8 @@
             <ng-letter-avatar class="md-avatar" charCount="3" shape="round" data="{{::vm.id}}"></ng-letter-avatar>
         </md-card-avatar>
         <md-card-header-text>
-            <h2 >{{::vm.post.title}}</h2>
-            <!--<span class="md-subhead">Material</span>-->
+            <span  class="md-title">{{::vm.post.title}}</span>
+            <span ng-if="vm.post" class="md-subhead">UserId: {{::vm.post.userId}}</span>
         </md-card-header-text>
     </md-card-header>
    
@@ -13,5 +13,9 @@
         <p>
             {{::vm.post.body}}
         </p>
+        <!--<md-datepicker ng-model="vm.endingDate" md-placeholder="Ending date"></md-datepicker>-->
     </md-card-content>
 </md-card>
+
+<tracker>
+</tracker>

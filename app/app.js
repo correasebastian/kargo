@@ -22,7 +22,8 @@
 		'ngLetterAvatar',
 		'ui.router',
 		// 'kargo.home',
-		'kargo.post'
+		'kargo.post',
+		'kargo.tracker'
 	]);
 
 })();
