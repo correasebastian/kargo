@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('kargo.postList')
+        .module('kargo.post')
         .factory('PostService', PostService);
 
     PostService.$inject = ['$http', '$q'];

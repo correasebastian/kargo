@@ -23,7 +23,7 @@
                 onClickItem :'&'
             },
             replace: true,
-            templateUrl: 'app/modules/post-item/item.html'
+            templateUrl: 'app/modules/post/post-item/item.html'
         };
         return directive;
 

@@ -22,7 +22,7 @@
 		'ngLetterAvatar',
 		'ui.router',
 		// 'kargo.home',
-		'kargo.postList'
+		'kargo.post'
 	]);
 
 })();

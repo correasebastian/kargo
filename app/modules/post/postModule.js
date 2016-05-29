@@ -1,7 +1,8 @@
 (function () {
     'use strict';
 
-    angular.module('kargo.postList', [
+    angular.module('kargo.post', [
+        'post.list',
         'post.item',
         'post.detail'
     ]);

@@ -3,13 +3,13 @@
 
     console.log('opstlist component')
     angular
-        .module('kargo.postList')
+        .module('post.list')
         .component('postList', {
             bindings: {
                 detailState: '@',
                 param: '@'
             },
-            templateUrl: 'app/modules/post-list/list.html',
+            templateUrl: 'app/modules/post/post-list/list.html',
             controller: PostListController,
             controllerAs: 'vm'
         });
