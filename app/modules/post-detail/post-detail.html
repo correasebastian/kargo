@@ -1,0 +1,17 @@
+<md-card>
+    <md-card-header>
+        <md-card-avatar class="kargo-item">
+            <ng-letter-avatar class="md-avatar" charCount="3" shape="round" data="{{::vm.id}}"></ng-letter-avatar>
+        </md-card-avatar>
+        <md-card-header-text>
+            <h2 >{{::vm.post.title}}</h2>
+            <!--<span class="md-subhead">Material</span>-->
+        </md-card-header-text>
+    </md-card-header>
+   
+    <md-card-content>
+        <p>
+            {{::vm.post.body}}
+        </p>
+    </md-card-content>
+</md-card>

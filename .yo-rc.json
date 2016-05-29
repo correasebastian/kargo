@@ -1,0 +1,9 @@
+{
+  "generator-angm": {
+    "appName": "kargo",
+    "angularCookies": true,
+    "angularAnimate": true,
+    "angularSanitize": true,
+    "angularMaterial": true
+  }
+}

@@ -1,0 +1,12 @@
+<md-card>
+    <md-card-title>
+        <md-card-title-text>
+            <span class="md-headline">Posts</span>
+        </md-card-title-text>
+    </md-card-title>
+    <md-card-content>
+        <md-list>
+            <post-item ng-repeat="post in vm.posts" title="{{::post.title}}" post-id="{{::post.id}}" on-click-item="vm.goToDetail(post)"></post-item>
+        </md-list>
+    </md-card-content>
+</md-card>
